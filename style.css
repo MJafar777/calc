@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+input {
+  outline: none;
+}
+body {
+  background-color: #032103;
+}
+.box {
+  display: block;
+  margin: 6rem auto;
+  width: 40%;
+}
+.line {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+.title {
+  text-align: center;
+  color: #fff;
+  font-size: 2.6rem;
+  margin-bottom: 1.5rem;
+}
+.oyna {
+  width: 92%;
+  height: 6rem;
+  padding: 0 2rem;
+  color: black;
+  background-color: #fff;
+  text-align: right;
+  border-radius: 0.4rem;
+  font-size: 2.6rem;
+  padding-top: 0.6rem;
+  overflow: auto;
+}
+.item {
+  width: 45%;
+  height: 5.5rem;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  margin: 1.2rem;
+  justify-content: center;
+  font-size: 2.5rem;
+  padding-top: 1.3rem;
+}
+.item:hover {
+  background-color: aliceblue;
+  color: #032103;
+}
+.javob,
+.qoshish,
+.ayrish,
+.kopaytirish,
+.bolish {
+  background-color: coral;
+  color: #fff;
+}
+.item0 {
+  /* columns: 3/5; */
+  width: 20rem;
+  border-radius: 4rem;
+  margin-right: 7rem;
+  text-align: left;
+  padding-left: 2.2rem;
+}
+.javob {
+  margin-left: 6.2rem;
+  width: 6rem;
+}
+.itemnuqta {
+  margin-left: 0.6rem;
+  width: 5.5rem;
+  padding-top: 0rem;
+  font-size: 4rem;
+}
